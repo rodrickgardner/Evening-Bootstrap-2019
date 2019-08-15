@@ -1,0 +1,69 @@
+th{
+    background: #007bff;
+    color: #9fcdff;
+    height: 80px;
+    text-align: center;
+    font-size: 22px;
+
+}
+td{
+    font-size: 18px;
+    text-align: center;
+}
+tr:hover{
+    background: #6f42c1;
+
+
+}
+.buttons, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    background: #1c7430;
+    color: #9fcdff;
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+}
+.footer{
+    background: #157460;
+    color: #26fff5;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}

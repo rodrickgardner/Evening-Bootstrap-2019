@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <h3 class="text-center">Contact Us</h3>
+            <form action="" method="post">
+                <input type="text" name="firstName" class="form-control"* placeholder="* Your First Name" required>
+                <br>
+                <input type="text" name="lastName" class="form-control"* placeholder="* Your Last Name" required>
+                <br>
+                <input type="text" name="email" class="form-control"* placeholder="* Your Email Address" required>
+                <br>
+                <label for=""><b>Gender :</b></label>
+                <select name="gender" id="gender" class="form-control"required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br>
+                <label for=""><b>Registration Date :</b></label>
+                <input type="date" name="regDate" class="form-control"required>
+                <br>
+                    <textarea name="comments" id="comments" cols="30" rows="10" class="form-control" placeholder="Your comments here........."></textarea>
+                <br>
+
+                <div class="button">
+                    <button type="submit"  class="btn btn-success">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+</body>
+</html>
